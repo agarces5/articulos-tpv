@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100vh;
+}
+.grid {
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    "navigation navigation navigation"
+    "mod-list panels families"
+    "mod-list panels art-list"
+    "controls controls controls";
+  grid-template-rows: 1fr 4fr 18fr 4fr;
+  grid-template-columns: 2fr 1fr 6fr;
+  gap: 4px;
+}
+.nav{
+  width: 80%;
+  padding: 1rem;
+  justify-self: center;
+  grid-area: navigation;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-container {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 4px;
+  overflow-y: auto;
+}
+.mod-list {
+  grid-area: mod-list;
+  background-color: yellow;
+}
+.panels{
+  grid-area: panels;
+  background-color: orange;
+}
+.grid-container{
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 4px;
+  grid-auto-rows: auto;
+  overflow-y: auto;
+}
+.families{
+  grid-area: families;
+  background-color: green;
+}
+.art-list{
+  grid-area: art-list;
+  background-color: grey;
+}
+.controls{
+  grid-area: controls;
+  background-color: rgb(125, 125, 216);
+}
+.card{
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+.nav > .card {
+  width: auto;
+}
+.articulo {
+  background-color: beige;
+}
+.panel {
+  background-color: aqua;
+}
+.family {
+  background-color: chartreuse;
+}
