@@ -1,0 +1,232 @@
+[
+  {
+    "articulo": 1,
+    "nombre": "Agua",
+    "familia": "Bebidas",
+    "tpvs": [
+      {
+        "cajtpv": "0001",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 10
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 1
+          }
+        ]
+      },
+      {
+        "cajtpv": "0002",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 20
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 2
+          }
+        ]
+      },
+      {
+        "cajtpv": "0003",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 30
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "articulo": 2,
+    "nombre": "Café",
+    "familia": "Bebidas",
+    "tpvs": [
+      {
+        "cajtpv": "0001",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 10
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 1
+          }
+        ]
+      },
+      {
+        "cajtpv": "0002",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 20
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 2
+          }
+        ]
+      },
+      {
+        "cajtpv": "0003",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 30
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "articulo": 3,
+    "nombre": "Cerdo",
+    "familia": "Carnes",
+    "tpvs": [
+      {
+        "cajtpv": "0001",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 10
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 1
+          }
+        ]
+      },
+      {
+        "cajtpv": "0002",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 20
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 2
+          }
+        ]
+      },
+      {
+        "cajtpv": "0003",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 30
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "articulo": 4,
+    "nombre": "Pollo",
+    "familia": "Carnes",
+    "tpvs": [
+      {
+        "cajtpv": "0001",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 10
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 1
+          }
+        ]
+      },
+      {
+        "cajtpv": "0002",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 20
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 2
+          }
+        ]
+      },
+      {
+        "cajtpv": "0003",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 30
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "articulo": 5,
+    "nombre": "Paella",
+    "familia": "Arroces",
+    "tpvs": [
+      {
+        "cajtpv": "0001",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 10
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 1
+          }
+        ]
+      },
+      {
+        "cajtpv": "0002",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 20
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 2
+          }
+        ]
+      },
+      {
+        "cajtpv": "0003",
+        "precios": [
+          {
+            "tipotarifa": "GENE",
+            "precio": 30
+          },
+          {
+            "tipotarifa": "TINC",
+            "precio": 3
+          }
+        ]
+      }
+    ]
+  }
+]

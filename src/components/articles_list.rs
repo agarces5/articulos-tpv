@@ -1,9 +1,41 @@
+use serde::{Deserialize, Serialize};
 use yew::prelude::*;
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct Article {
+    pub articulo: usize,
+    pub nombre: String,
+    pub familia: String,
+    pub tpvs: Vec<Cajtpv>,
+}
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct Cajtpv {
+    pub cajtpv: String,
+    pub precios: Vec<Precio>,
+}
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct Precio {
+    pub tipotarifa: String,
+    pub precio: i32,
+}
 
 #[function_component(ArticleList)]
 pub fn article_list() -> Html {
+    let articles = include_str!("../mocks/articulos.json");
+
+    // gloo::console::log!("{}", articles);
+
+    let articles =
+        serde_json::from_str::<Vec<Article>>(articles).expect("Unable to parse articulos.json");
+    let articles_render = articles.iter().map(|article| {
+        html! {
+            <div key={article.articulo} class={"articulo card"}>{&article.nombre}</div>
+        }
+    });
+
     html! {
         <section class={"art-list grid-container"}>
+            { articles_render.into_iter().collect::<Html>() }
             <div class={"articulo card"}>{"articulo 1"}</div>
             <div class={"articulo card"}>{"articulo 2"}</div>
             <div class={"articulo card"}>{"articulo 3"}</div>
