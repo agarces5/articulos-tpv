@@ -1,0 +1,352 @@
+[
+  {
+    "Cajtpv": "0001",
+    "Panel": "0101",
+    "Nombre": "BEBIDAS"
+  },
+  {
+    "Cajtpv": "0001",
+    "Panel": "0201",
+    "Nombre": "SNACK"
+  },
+  {
+    "Cajtpv": "0007",
+    "Panel": "3901",
+    "Nombre": "GOLF - SPA"
+  },
+  {
+    "Cajtpv": "0001",
+    "Panel": "0301",
+    "Nombre": "PASTELERÍA"
+  },
+  {
+    "Cajtpv": "0001",
+    "Panel": "0401",
+    "Nombre": "HELADERÍA"
+  },
+  {
+    "Cajtpv": "0001",
+    "Panel": "0601",
+    "Nombre": "GOLOSINAS"
+  },
+  {
+    "Cajtpv": "0002",
+    "Panel": "0701",
+    "Nombre": "ROOM SERVICES"
+  },
+  {
+    "Cajtpv": "0002",
+    "Panel": "0101",
+    "Nombre": "BEBIDAS"
+  },
+  {
+    "Cajtpv": "0002",
+    "Panel": "0201",
+    "Nombre": "SNACK"
+  },
+  {
+    "Cajtpv": "0002",
+    "Panel": "0501",
+    "Nombre": "DESAYUNO BUFFET"
+  },
+  {
+    "Cajtpv": "0002",
+    "Panel": "0301",
+    "Nombre": "PASTELERÍA"
+  },
+  {
+    "Cajtpv": "0002",
+    "Panel": "0401",
+    "Nombre": "HELADERÍA"
+  },
+  {
+    "Cajtpv": "0002",
+    "Panel": "0601",
+    "Nombre": "GOLOSINAS"
+  },
+  {
+    "Cajtpv": "0008",
+    "Panel": "0701",
+    "Nombre": "ROOM SERVICES"
+  },
+  {
+    "Cajtpv": "0003",
+    "Panel": "0101",
+    "Nombre": "BEBIDAS"
+  },
+  {
+    "Cajtpv": "0003",
+    "Panel": "0201",
+    "Nombre": "SNACK"
+  },
+  {
+    "Cajtpv": "0003",
+    "Panel": "0203",
+    "Nombre": "BUFFET"
+  },
+  {
+    "Cajtpv": "0003",
+    "Panel": "0301",
+    "Nombre": "PASTELERÍA"
+  },
+  {
+    "Cajtpv": "0003",
+    "Panel": "0401",
+    "Nombre": "HELADERÍA"
+  },
+  {
+    "Cajtpv": "0003",
+    "Panel": "0601",
+    "Nombre": "GOLOSINAS"
+  },
+  {
+    "Cajtpv": "0003",
+    "Panel": "0501",
+    "Nombre": "DESAYUNO BUFFET"
+  },
+  {
+    "Cajtpv": "0005",
+    "Panel": "0101",
+    "Nombre": "BEBIDAS"
+  },
+  {
+    "Cajtpv": "0005",
+    "Panel": "0201",
+    "Nombre": "SNACK"
+  },
+  {
+    "Cajtpv": "0010",
+    "Panel": "0701",
+    "Nombre": "ROOM SERVICES"
+  },
+  {
+    "Cajtpv": "0005",
+    "Panel": "0301",
+    "Nombre": "PASTELERÍA"
+  },
+  {
+    "Cajtpv": "0005",
+    "Panel": "0401",
+    "Nombre": "HELADERÍA"
+  },
+  {
+    "Cajtpv": "0005",
+    "Panel": "0601",
+    "Nombre": "GOLOSINAS"
+  },
+  {
+    "Cajtpv": "0011",
+    "Panel": "0701",
+    "Nombre": "ROOM SERVICES"
+  },
+  {
+    "Cajtpv": "0008",
+    "Panel": "0101",
+    "Nombre": "BEBIDAS"
+  },
+  {
+    "Cajtpv": "0008",
+    "Panel": "0201",
+    "Nombre": "SNACK"
+  },
+  {
+    "Cajtpv": "0013",
+    "Panel": "0701",
+    "Nombre": "ROOM SERVICES"
+  },
+  {
+    "Cajtpv": "0008",
+    "Panel": "0301",
+    "Nombre": "PASTELERÍA"
+  },
+  {
+    "Cajtpv": "0008",
+    "Panel": "0401",
+    "Nombre": "HELADERÍA"
+  },
+  {
+    "Cajtpv": "0008",
+    "Panel": "0601",
+    "Nombre": "GOLOSINAS"
+  },
+  {
+    "Cajtpv": "0014",
+    "Panel": "0701",
+    "Nombre": "ROOM SERVICES"
+  },
+  {
+    "Cajtpv": "0009",
+    "Panel": "0101",
+    "Nombre": "BEBIDAS"
+  },
+  {
+    "Cajtpv": "0009",
+    "Panel": "0201",
+    "Nombre": "SNACK"
+  },
+  {
+    "Cajtpv": "0011",
+    "Panel": "0203",
+    "Nombre": "BUFFET"
+  },
+  {
+    "Cajtpv": "0009",
+    "Panel": "0301",
+    "Nombre": "PASTELERÍA"
+  },
+  {
+    "Cajtpv": "0009",
+    "Panel": "0401",
+    "Nombre": "HELADERÍA"
+  },
+  {
+    "Cajtpv": "0009",
+    "Panel": "0601",
+    "Nombre": "GOLOSINAS"
+  },
+  {
+    "Cajtpv": "0010",
+    "Panel": "0101",
+    "Nombre": "BEBIDAS"
+  },
+  {
+    "Cajtpv": "0010",
+    "Panel": "0201",
+    "Nombre": "SNACK"
+  },
+  {
+    "Cajtpv": "0010",
+    "Panel": "0301",
+    "Nombre": "PASTELERÍA"
+  },
+  {
+    "Cajtpv": "0010",
+    "Panel": "0401",
+    "Nombre": "HELADERÍA"
+  },
+  {
+    "Cajtpv": "0003",
+    "Panel": "0701",
+    "Nombre": "ROOM SERVICES"
+  },
+  {
+    "Cajtpv": "0011",
+    "Panel": "0101",
+    "Nombre": "BEBIDAS"
+  },
+  {
+    "Cajtpv": "0011",
+    "Panel": "0201",
+    "Nombre": "SNACK"
+  },
+  {
+    "Cajtpv": "0005",
+    "Panel": "0701",
+    "Nombre": "ROOM SERVICES"
+  },
+  {
+    "Cajtpv": "0011",
+    "Panel": "0301",
+    "Nombre": "PASTELERÍA"
+  },
+  {
+    "Cajtpv": "0011",
+    "Panel": "0401",
+    "Nombre": "HELADERÍA"
+  },
+  {
+    "Cajtpv": "0011",
+    "Panel": "0601",
+    "Nombre": "GOLOSINAS"
+  },
+  {
+    "Cajtpv": "0013",
+    "Panel": "0101",
+    "Nombre": "BEBIDAS"
+  },
+  {
+    "Cajtpv": "0013",
+    "Panel": "0201",
+    "Nombre": "SNACK"
+  },
+  {
+    "Cajtpv": "0009",
+    "Panel": "0701",
+    "Nombre": "ROOM SERVICES"
+  },
+  {
+    "Cajtpv": "0013",
+    "Panel": "0301",
+    "Nombre": "PASTELERÍA"
+  },
+  {
+    "Cajtpv": "0013",
+    "Panel": "0401",
+    "Nombre": "HELADERÍA"
+  },
+  {
+    "Cajtpv": "0013",
+    "Panel": "0601",
+    "Nombre": "GOLOSINAS"
+  },
+  {
+    "Cajtpv": "0014",
+    "Panel": "0101",
+    "Nombre": "BEBIDAS"
+  },
+  {
+    "Cajtpv": "0014",
+    "Panel": "0201",
+    "Nombre": "SNACK"
+  },
+  {
+    "Cajtpv": "0014",
+    "Panel": "0301",
+    "Nombre": "PASTELERÍA"
+  },
+  {
+    "Cajtpv": "0014",
+    "Panel": "0401",
+    "Nombre": "HELADERÍA"
+  },
+  {
+    "Cajtpv": "0014",
+    "Panel": "0601",
+    "Nombre": "GOLOSINAS"
+  },
+  {
+    "Cajtpv": "0007",
+    "Panel": "3101",
+    "Nombre": "CIRCUITOS SPA"
+  },
+  {
+    "Cajtpv": "0007",
+    "Panel": "3201",
+    "Nombre": "TRATAMIENTOS"
+  },
+  {
+    "Cajtpv": "0007",
+    "Panel": "3301",
+    "Nombre": "VENTAS"
+  },
+  {
+    "Cajtpv": "0007",
+    "Panel": "3601",
+    "Nombre": "HOME CARE"
+  },
+  {
+    "Cajtpv": "0007",
+    "Panel": "3701",
+    "Nombre": "DEPORTES"
+  },
+  {
+    "Cajtpv": "0007",
+    "Panel": "3801",
+    "Nombre": "DAY PASS"
+  },
+  {
+    "Cajtpv": "0001",
+    "Panel": "0701",
+    "Nombre": "ROOM SERVICES"
+  }
+]

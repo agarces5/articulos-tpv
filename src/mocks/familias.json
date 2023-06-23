@@ -1,0 +1,394 @@
+[
+  {
+    "Familia": "0101",
+    "Nombre": "AGUA - REFRESCOS"
+  },
+  {
+    "Familia": "0102",
+    "Nombre": "CAFÉS - INFUSIONES"
+  },
+  {
+    "Familia": "0103",
+    "Nombre": "CERVEZAS"
+  },
+  {
+    "Familia": "0104",
+    "Nombre": "VINOS TINTOS"
+  },
+  {
+    "Familia": "0105",
+    "Nombre": "VINOS BLANCOS"
+  },
+  {
+    "Familia": "0106",
+    "Nombre": "VINOS ROSADOS"
+  },
+  {
+    "Familia": "0107",
+    "Nombre": "VINOS DULCES"
+  },
+  {
+    "Familia": "0109",
+    "Nombre": "CAVA"
+  },
+  {
+    "Familia": "0110",
+    "Nombre": "CHAMPAGNE"
+  },
+  {
+    "Familia": "0111",
+    "Nombre": "COCKTAILS"
+  },
+  {
+    "Familia": "0112",
+    "Nombre": "BRANDIES"
+  },
+  {
+    "Familia": "0113",
+    "Nombre": "GINEBRAS"
+  },
+  {
+    "Familia": "0114",
+    "Nombre": "RON"
+  },
+  {
+    "Familia": "0115",
+    "Nombre": "VODKAS"
+  },
+  {
+    "Familia": "0116",
+    "Nombre": "WHISKIES"
+  },
+  {
+    "Familia": "0117",
+    "Nombre": "LICORES"
+  },
+  {
+    "Familia": "0201",
+    "Nombre": "SNACK"
+  },
+  {
+    "Familia": "0202",
+    "Nombre": "CARNES"
+  },
+  {
+    "Familia": "0203",
+    "Nombre": "PESCADOS Y MARISCOS"
+  },
+  {
+    "Familia": "0204",
+    "Nombre": "ENSALADAS"
+  },
+  {
+    "Familia": "0205",
+    "Nombre": "PASTAS"
+  },
+  {
+    "Familia": "0206",
+    "Nombre": "SANDWICHES - BOCADILLOS"
+  },
+  {
+    "Familia": "0207",
+    "Nombre": "CUCHARA"
+  },
+  {
+    "Familia": "0208",
+    "Nombre": "PIZZAS"
+  },
+  {
+    "Familia": "0209",
+    "Nombre": "TOSTADAS"
+  },
+  {
+    "Familia": "0210",
+    "Nombre": "ARROCES - PAELLAS"
+  },
+  {
+    "Familia": "0211",
+    "Nombre": "POSTRES"
+  },
+  {
+    "Familia": "0213",
+    "Nombre": "HUEVOS Y TORTILLAS"
+  },
+  {
+    "Familia": "0216",
+    "Nombre": "SASHIMIS"
+  },
+  {
+    "Familia": "0217",
+    "Nombre": "SUSHI"
+  },
+  {
+    "Familia": "0218",
+    "Nombre": "TABLAS - SURTIDOS"
+  },
+  {
+    "Familia": "0219",
+    "Nombre": "MENÚS"
+  },
+  {
+    "Familia": "0220",
+    "Nombre": "DESAYUNOS BUFFET"
+  },
+  {
+    "Familia": "0221",
+    "Nombre": "ALMUERZOS BUFFET"
+  },
+  {
+    "Familia": "0222",
+    "Nombre": "CENAS BUFFET"
+  },
+  {
+    "Familia": "0299",
+    "Nombre": "SUPLEMENTOS SNACK"
+  },
+  {
+    "Familia": "0301",
+    "Nombre": "PASTELERÍA"
+  },
+  {
+    "Familia": "0302",
+    "Nombre": "OFERTA PASTELERÍA"
+  },
+  {
+    "Familia": "0401",
+    "Nombre": "HELADOS"
+  },
+  {
+    "Familia": "0601",
+    "Nombre": "SALADOS - GOLOSINAS"
+  },
+  {
+    "Familia": "0701",
+    "Nombre": "AGUAS - REFRESCOS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0702",
+    "Nombre": "CAVAS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0703",
+    "Nombre": "CAFÉS E INFUSIONES (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0705",
+    "Nombre": "SNACK (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0706",
+    "Nombre": "CERVEZAS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0707",
+    "Nombre": "POSTRES (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0708",
+    "Nombre": "CHAMPAGNE (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0709",
+    "Nombre": "SANDWICHES - BOCADILLOS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0710",
+    "Nombre": "ENSALADAS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0711",
+    "Nombre": "VINOS TINTOS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0712",
+    "Nombre": "VINOS BLANCOS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0713",
+    "Nombre": "VINOS ROSADOS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0715",
+    "Nombre": "HUEVOS Y TORTILLAS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0716",
+    "Nombre": "TABLAS - SURTIDOS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0717",
+    "Nombre": "CARNES (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0718",
+    "Nombre": "PESCADOS Y MARISCOS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0721",
+    "Nombre": "PASTAS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0722",
+    "Nombre": "CUCHARA (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0723",
+    "Nombre": "DESAYUNOS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "0799",
+    "Nombre": "SUPLEMENTOS (ROOM SERVICES)"
+  },
+  {
+    "Familia": "3103",
+    "Nombre": "GROUPON - CIRCUITO"
+  },
+  {
+    "Familia": "3106",
+    "Nombre": "CIRCUITO SPA"
+  },
+  {
+    "Familia": "3107",
+    "Nombre": "WONDERBOX"
+  },
+  {
+    "Familia": "3108",
+    "Nombre": "EGO"
+  },
+  {
+    "Familia": "3109",
+    "Nombre": "SMARTBOX - CIRCUITO"
+  },
+  {
+    "Familia": "3110",
+    "Nombre": "ZONA RELAX"
+  },
+  {
+    "Familia": "3111",
+    "Nombre": "SPA PRIVADO"
+  },
+  {
+    "Familia": "3201",
+    "Nombre": "ESTÉTICOS"
+  },
+  {
+    "Familia": "3202",
+    "Nombre": "5 SENTIDOS"
+  },
+  {
+    "Familia": "3203",
+    "Nombre": "RITUALES FACIALES"
+  },
+  {
+    "Familia": "3204",
+    "Nombre": "RITUALES MASAJES"
+  },
+  {
+    "Familia": "3205",
+    "Nombre": "DEPILACIONES"
+  },
+  {
+    "Familia": "3206",
+    "Nombre": "EXPERIENCIAS SENZIA"
+  },
+  {
+    "Familia": "3207",
+    "Nombre": "RITUALES LUXURY"
+  },
+  {
+    "Familia": "3209",
+    "Nombre": "PELUQUERIA"
+  },
+  {
+    "Familia": "3212",
+    "Nombre": "GROUPON - TRATAMIENTOS"
+  },
+  {
+    "Familia": "3213",
+    "Nombre": "SMARTBOX - TRATAMIENTOS"
+  },
+  {
+    "Familia": "3214",
+    "Nombre": "LA VIDA ES BELLA - TRATAMIENTOS"
+  },
+  {
+    "Familia": "3304",
+    "Nombre": "HAMMAM"
+  },
+  {
+    "Familia": "3305",
+    "Nombre": "AYURVEDA"
+  },
+  {
+    "Familia": "3306",
+    "Nombre": "EMOCOSMETICA"
+  },
+  {
+    "Familia": "3307",
+    "Nombre": "GERMAINE DE CAPUCCINI"
+  },
+  {
+    "Familia": "3308",
+    "Nombre": "DAO"
+  },
+  {
+    "Familia": "3309",
+    "Nombre": "KARMA"
+  },
+  {
+    "Familia": "3310",
+    "Nombre": "HAPPY BUDDHA"
+  },
+  {
+    "Familia": "3311",
+    "Nombre": "YEIDRA"
+  },
+  {
+    "Familia": "3312",
+    "Nombre": "VENTA SPA"
+  },
+  {
+    "Familia": "3313",
+    "Nombre": "SAKURA"
+  },
+  {
+    "Familia": "3314",
+    "Nombre": "SAMURAI"
+  },
+  {
+    "Familia": "3401",
+    "Nombre": "UP SELLING CIRCUITO"
+  },
+  {
+    "Familia": "3501",
+    "Nombre": "UP SELLING TRATAMIENTOS"
+  },
+  {
+    "Familia": "3601",
+    "Nombre": "HC EMOCOSMETICA"
+  },
+  {
+    "Familia": "3602",
+    "Nombre": "HC GERMAINE"
+  },
+  {
+    "Familia": "3603",
+    "Nombre": "HC RITUALS"
+  },
+  {
+    "Familia": "3701",
+    "Nombre": "GIMNASIO"
+  },
+  {
+    "Familia": "3801",
+    "Nombre": "PISCINA EXTERIOR"
+  },
+  {
+    "Familia": "3802",
+    "Nombre": "PISCINA INTERIOR"
+  },
+  {
+    "Familia": "3901",
+    "Nombre": "GOLF"
+  }
+]
