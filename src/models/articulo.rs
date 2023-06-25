@@ -2,7 +2,7 @@ use std::{collections::HashMap, vec};
 
 use serde::{Deserialize, Serialize};
 
-use crate::models::articulo_dto::ArticuloDTO;
+use crate::models::articulo_dto::ListArticuloDTO;
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct Articulo {
@@ -22,14 +22,31 @@ pub struct Precio {
     pub precio: f64,
 }
 
-pub struct ListArticuloDTO(pub Vec<ArticuloDTO>);
-pub struct ListArticulo(pub Vec<(u32, Articulo)>);
+pub struct ListArticulo(Vec<(u32, Articulo)>);
+
+impl ListArticulo {
+    pub fn new(list: Vec<(u32, Articulo)>) -> Self {
+        ListArticulo(list)
+    }
+    pub fn get(&self) -> &Vec<(u32, Articulo)> {
+        &self.0
+    }
+    pub fn filter(&self, cajtpv: &str, familia: &str) -> Vec<(u32, Articulo)> {
+        self.get()
+            .clone()
+            .into_iter()
+            .filter(|(_id, art)| {
+                art.familia == familia && art.detalles.iter().any(|detail| detail.cajtpv == cajtpv)
+            })
+            .collect()
+    }
+}
 
 impl From<ListArticuloDTO> for ListArticulo {
     fn from(lista_articulos_dto: ListArticuloDTO) -> Self {
-        let lista_articulos_dto = lista_articulos_dto.0;
+        let lista_articulos_dto = lista_articulos_dto.get_owned_list();
         // Creamos un mapa para almacenar los datos en el nuevo formato
-        let mut nueva_lista: HashMap<u32, Articulo> = HashMap::new();
+        let mut map_de_articulos: HashMap<u32, Articulo> = HashMap::new();
 
         // Recorremos cada elemento de la lista que nos llega
         for articulo_dto in lista_articulos_dto {
@@ -41,7 +58,7 @@ impl From<ListArticuloDTO> for ListArticulo {
             let precio = articulo_dto.precio;
 
             // Para cada articulo, verificamos si ya existe y si no lo creamos
-            let articulo = nueva_lista.entry(id).or_insert_with(|| Articulo {
+            let articulo = map_de_articulos.entry(id).or_insert_with(|| Articulo {
                 articulo: id,
                 nombre,
                 familia,
@@ -68,7 +85,7 @@ impl From<ListArticuloDTO> for ListArticulo {
                 articulo.detalles.push(new_detail);
             }
         }
-        let mut sorted_list: Vec<_> = nueva_lista.into_iter().collect();
+        let mut sorted_list: Vec<_> = map_de_articulos.into_iter().collect();
         sorted_list.sort_by_key(|(clave, _)| *clave);
         ListArticulo(sorted_list)
     }

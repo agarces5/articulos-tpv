@@ -1,8 +1,8 @@
 use yew::prelude::*;
 
 use crate::models::{
-    articulo::{ListArticulo, ListArticuloDTO},
-    articulo_dto::ArticuloDTO,
+    articulo::ListArticulo,
+    articulo_dto::{ArticuloDTO, ListArticuloDTO},
 };
 
 #[function_component(ArticleList)]
@@ -12,19 +12,23 @@ pub fn article_list() -> Html {
     gloo::console::log!("{:?}", articles);
     let articles: Vec<ArticuloDTO> =
         serde_json::from_str(articles).expect("Unable to parse articulos.json");
-    let articles: ListArticulo = ListArticuloDTO(articles).into();
-    let articles = articles.0;
+    let articles: ListArticulo = ListArticuloDTO::new(articles).into();
+    // Filter articles
+    let articles = articles.filter("0001", "0101");
 
     // Render articles
-    let articles_render = articles.iter().map(|(_, article)| {
-        html! {
-            <div key={article.articulo} class={"articulo card"}>{&article.nombre}</div>
-        }
-    });
+    let articles_render = articles
+        .iter()
+        .map(|(_, article)| {
+            html! {
+                <div key={article.articulo} class={"articulo card"}>{&article.nombre}</div>
+            }
+        })
+        .collect::<Html>();
 
     html! {
         <section class={"art-list grid-container"}>
-            { articles_render.into_iter().collect::<Html>() }
+            { articles_render }
         </section>
     }
 }
