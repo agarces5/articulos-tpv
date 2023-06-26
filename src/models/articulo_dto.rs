@@ -17,10 +17,7 @@ impl ListArticuloDTO {
     pub fn new(lista: Vec<ArticuloDTO>) -> Self {
         ListArticuloDTO(lista)
     }
-    pub fn get_list(&self) -> &Vec<ArticuloDTO> {
+    pub fn get(&self) -> &Vec<ArticuloDTO> {
         &self.0
-    }
-    pub fn get_owned_list(self) -> Vec<ArticuloDTO> {
-        self.0
     }
 }
