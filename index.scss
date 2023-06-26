@@ -6,6 +6,11 @@
 html, body {
   height: 100vh;
 }
+li {
+  width: 50%;
+  display: inline-flex;
+  justify-content: center;
+}
 .grid {
   height: 100%;
   display: grid;
@@ -30,7 +35,7 @@ html, body {
 .flex-container {
   padding: 1rem;
   display: flex;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   flex-direction: column;
   gap: 4px;
   overflow-y: auto;
@@ -62,9 +67,11 @@ html, body {
 .controls{
   grid-area: controls;
   background-color: rgb(125, 125, 216);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .card{
-  width: 100%;
   border: 2px solid black;
   border-radius: 8px;
   padding: 0.5rem;
@@ -74,6 +81,10 @@ html, body {
 }
 .articulo {
   background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
 }
 .panel {
   background-color: aqua;
@@ -81,3 +92,20 @@ html, body {
 .family {
   background-color: chartreuse;
 }
+.css-controles {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 100%;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.control-button {
+  width: 5rem;
+  height: 3rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+

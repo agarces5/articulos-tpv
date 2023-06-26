@@ -1,4 +1,5 @@
 pub mod articles_list;
+pub mod articulo_card;
 pub mod card;
 pub mod controls;
 pub mod families;
