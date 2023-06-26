@@ -14,4 +14,8 @@ impl Familia {
     pub fn _filter(&self) -> bool {
         true
     }
+
+    pub fn familia(&self) -> &str {
+        self.familia.as_ref()
+    }
 }
