@@ -2,6 +2,8 @@ use std::collections::HashMap;
 
 use serde::{Deserialize, Serialize};
 
+use crate::context::filters::Filter;
+
 use super::paneles_dto::ListOfPanelsDTO;
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
@@ -21,11 +23,14 @@ impl ListOfPanels {
     pub fn get(&self) -> &Vec<(String, Panel)> {
         &self.0
     }
-    pub fn filter(&self, cajtpv: &str) -> Vec<(String, Panel)> {
+    pub fn filter(&self, filters: Filter) -> Vec<(String, Panel)> {
+        if filters.cajtpv == "all" {
+            return self.get().clone();
+        };
         self.get()
             .clone()
             .into_iter()
-            .filter(|(_id, panel)| panel.cajtpv.iter().any(|caja| caja == cajtpv))
+            .filter(|(_id, panel)| panel.cajtpv.iter().any(|caja| caja == &filters.cajtpv))
             .collect()
     }
 }
