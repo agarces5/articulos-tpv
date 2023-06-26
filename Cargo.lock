@@ -15,6 +15,7 @@ dependencies = [
  "gloo",
  "serde",
  "serde_json",
+ "web-sys",
  "yew",
 ]
 
