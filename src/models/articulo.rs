@@ -11,6 +11,11 @@ pub struct Articulo {
     pub familia: String,
     pub detalles: Vec<Detail>,
 }
+impl Articulo {
+    pub fn some_detail(&self) -> Option<Detail> {
+        self.detalles.first().cloned()
+    }
+}
 #[derive(Clone, Debug, Default, Serialize, Deserialize, PartialEq)]
 pub struct Detail {
     pub cajtpv: String,

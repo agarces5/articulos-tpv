@@ -1,6 +1,6 @@
 use yew::prelude::*;
 
-use crate::{components::card::Card, context::modifications::ModificationContext};
+use crate::context::modifications::ModificationContext;
 
 #[function_component(ModificationList)]
 pub fn modification_list() -> Html {
@@ -13,8 +13,20 @@ pub fn modification_list() -> Html {
         .values()
         .map(|art| {
             let onclick = Callback::from(|_| {});
+            let precio = art
+                .some_detail()
+                .unwrap_or_default()
+                .precios
+                .first()
+                .cloned()
+                .unwrap_or_default()
+                .precio;
             html! {
-                <Card articulo={art.clone()} {onclick} />
+                <button key={art.articulo} class={"articulo card"} {onclick}>
+                    <h4>{&art.nombre}</h4>
+                    <p>{art.articulo}</p>
+                    <p>{format!("{} €",precio) }</p>
+                </button>
             }
         })
         .collect::<Html>();
