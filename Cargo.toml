@@ -18,5 +18,6 @@ yew = { version="0.20", features=["csr"] }
 web-sys = { version = "*", features=[
     "MouseEvent",
     "Event",
-    "EventTarget"
+    "EventTarget",
+    "HtmlSelectElement"
 ]}
