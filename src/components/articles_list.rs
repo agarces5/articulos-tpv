@@ -3,19 +3,13 @@ use yew::prelude::*;
 use crate::{
     components::articulo_card::ArticuloCard,
     context::filters::{Filter, FilterContext},
-    models::{
-        articulo::ListArticulo,
-        articulo_dto::{ArticuloDTO, ListArticuloDTO},
-    },
+    hooks::use_articles::use_articles,
+    models::articulo::ListArticulo,
 };
 
 #[function_component(ArticleList)]
 pub fn article_list() -> Html {
-    // Get the articles
-    let articles = include_str!("../mocks/articulos_input.json");
-    let articles: Vec<ArticuloDTO> =
-        serde_json::from_str(articles).expect("Unable to parse articulos.json");
-    let articles: ListArticulo = ListArticuloDTO::new(articles).into();
+    let articles: ListArticulo = use_articles();
     // Get filters
     let filter_context = use_context::<FilterContext>()
         .expect("Se esta intentando acceder al contexto de Filtros fuera del Provider");
