@@ -9,7 +9,7 @@ pub struct Modification {
 }
 
 impl Modification {
-    pub fn new(mod_articles: HashMap<u32, Articulo>) -> Self {
+    pub fn _new(mod_articles: HashMap<u32, Articulo>) -> Self {
         Self { mod_articles }
     }
 }

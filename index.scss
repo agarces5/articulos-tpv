@@ -1,9 +1,19 @@
+@import "./src/components/articles_list.scss";
+@import "./src/components/articulo_card.scss";
+@import "./src/components/controls.scss";
+@import "./src/components/families.scss";
+@import "./src/components/modal.scss";
+@import "./src/components/modification_list.scss";
+@import "./src/components/navbar.scss";
+@import "./src/components/panels.scss";
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-html, body {
+html,
+body {
   height: 100vh;
 }
 li {
@@ -23,15 +33,6 @@ li {
   grid-template-columns: 2fr 1fr 6fr;
   gap: 4px;
 }
-.nav{
-  width: 80%;
-  padding: 1rem;
-  justify-self: center;
-  grid-area: navigation;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .flex-container {
   padding: 1rem;
   display: flex;
@@ -40,15 +41,8 @@ li {
   gap: 4px;
   overflow-y: auto;
 }
-.mod-list {
-  grid-area: mod-list;
-  background-color: yellow;
-}
-.panels{
-  grid-area: panels;
-  background-color: orange;
-}
-.grid-container{
+
+.grid-container {
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -56,95 +50,10 @@ li {
   grid-auto-rows: auto;
   overflow-y: auto;
 }
-.families{
-  grid-area: families;
-  background-color: green;
-}
-.art-list{
-  grid-area: art-list;
-  background-color: grey;
-}
-.controls{
-  grid-area: controls;
-  background-color: rgb(125, 125, 216);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.card{
-  border: 2px solid black;
-  border-radius: 8px;
-  padding: 0.5rem;
-}
-.nav > .card {
-  width: auto;
-}
-.articulo {
-  background-color: beige;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  padding: 1rem;
-  text-align: center;
-}
-.panel {
-  background-color: aqua;
-}
-.family {
-  background-color: chartreuse;
-}
-.css-controles {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-}
-.control-button {
-  width: 5rem;
-  height: 3rem;
+
+.card {
   border: 2px solid black;
   border-radius: 8px;
   padding: 0.5rem;
 }
 
-.svg-button {
-  width: 28px;
-  height: 28px;  
-}
-
- /* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-} 

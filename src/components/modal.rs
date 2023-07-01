@@ -1,22 +1,22 @@
+use web_sys::HtmlDialogElement;
 use yew::prelude::*;
 
 #[derive(Properties, Clone, PartialEq)]
 pub struct ModalProps {
-    pub _ref: NodeRef,
+    pub refe: NodeRef,
 }
 
 #[function_component(Modal)]
 pub fn modal(props: &ModalProps) -> Html {
+    let modal_ref = props.refe.clone();
+    let onclick = { move |_| modal_ref.cast::<HtmlDialogElement>().unwrap().close() };
+    let close_icon = '\u{00D7}';
     html! {
-
-    <div id="myModal" class="modal" ref={props._ref.clone()}>
-
-      <div class="modal-content">
-        <span class="close">{"&times;"}</span>
-        <p>{"Some text in the Modal.."}</p>
-      </div>
-
-    </div>
-
+        <dialog class={"modal"} ref={props.refe.clone()}>
+            <div class={"modal-content"}>
+                <button class={"close"} {onclick}>{close_icon}</button>
+                <p>{"Some text in the Modal.."}</p>
+            </div>
+        </dialog>
     }
 }

@@ -1,0 +1,21 @@
+.svg-button {
+  width: 28px;
+  height: 28px;
+}
+
+.articulo-card {
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }

@@ -13,24 +13,21 @@ pub fn controls() -> Html {
     let cajtpv_list = use_cajtpv();
 
     html! {
-        <section class={"controls"}>
-            <h2>{"Controles"}</h2>
-            <div class={"css-controles"}>
-                <div>
-                    <label htmlfor={"input-cajas"}>{"Cajtpv: "}</label>
-                    <select id={"input-cajas"} onchange={handle_change(filter_ctx)} >
-                        <option value={"all"}>{"Todas"}</option>
-                        {
-                            cajtpv_list.iter().map(|cajtpv| {
-                                html! {<option value={cajtpv.id()}>{format!("{} - {}", cajtpv.id(), cajtpv.nombre())}</option>}
-                            }).collect::<Html>()
-                        }
-                    </select>
-                </div>
-                <div style={"display:flex;gap:1rem"} >
-                    <button class={"control-button"} >{"SCRIPT"}</button>
-                    <button class={"control-button"} >{"EJECUTAR"}</button>
-                </div>
+        <section class={"controls css-controles"}>
+            <div>
+                <label htmlfor={"input-cajas"}>{"Cajtpv: "}</label>
+                <select id={"input-cajas"} onchange={handle_change(filter_ctx)} >
+                    <option value={"all"}>{"Todas"}</option>
+                    {
+                        cajtpv_list.iter().map(|cajtpv| {
+                            html! {<option value={cajtpv.id()}>{format!("{} - {}", cajtpv.id(), cajtpv.nombre())}</option>}
+                        }).collect::<Html>()
+                    }
+                </select>
+            </div>
+            <div style={"display:flex;gap:1rem"} >
+                <button class={"control-button"} >{"SCRIPT"}</button>
+                <button class={"control-button"} >{"EJECUTAR"}</button>
             </div>
         </section>
     }

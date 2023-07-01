@@ -8,7 +8,7 @@ pub struct Cajtpv {
 }
 
 impl Cajtpv {
-    pub fn new(id: String, nombre: String) -> Self {
+    pub fn _new(id: String, nombre: String) -> Self {
         Self { id, nombre }
     }
 
@@ -16,7 +16,7 @@ impl Cajtpv {
         self.id.to_owned()
     }
 
-    pub fn set_id(&mut self, id: String) {
+    pub fn _set_id(&mut self, id: String) {
         self.id = id;
     }
 
@@ -24,7 +24,7 @@ impl Cajtpv {
         self.nombre.to_owned()
     }
 
-    pub fn set_nombre(&mut self, nombre: String) {
+    pub fn _set_nombre(&mut self, nombre: String) {
         self.nombre = nombre;
     }
 }

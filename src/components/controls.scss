@@ -1,0 +1,16 @@
+.controls {
+  grid-area: controls;
+  background-color: rgb(125, 125, 216);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 20%;
+}
+
+.control-button {
+  width: 5rem;
+  height: 3rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 0.5rem;
+}

@@ -20,5 +20,6 @@ web-sys = { version = "*", features=[
     "Event",
     "EventTarget",
     "HtmlSelectElement",
+    "HtmlDialogElement",
     "CssStyleDeclaration"
 ]}

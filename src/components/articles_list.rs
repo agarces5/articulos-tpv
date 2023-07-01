@@ -17,7 +17,7 @@ pub fn article_list() -> Html {
         .collect::<Html>();
 
     html! {
-        <section class={"art-list grid-container"}>
+        <section class={"art-list"}>
             { articles }
         </section>
     }

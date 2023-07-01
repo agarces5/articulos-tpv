@@ -46,7 +46,7 @@ pub fn families() -> Html {
         })
         .collect::<Html>();
     html! {
-        <section class={"families grid-container"}>
+        <section class={"families"}>
             {familias_html}
         </section>
     }

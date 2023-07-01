@@ -1,0 +1,13 @@
+.mod-list {
+  grid-area: mod-list;
+  background-color: yellow;
+}
+
+.articulo {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 1rem;
+    text-align: center;
+  }
