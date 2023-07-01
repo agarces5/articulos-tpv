@@ -7,7 +7,7 @@ use crate::{
     models::familias::Familia,
 };
 
-fn set_filter(filter_ctx: UseReducerHandle<Filter>) -> Callback<MouseEvent> {
+fn set_family_filter(filter_ctx: UseReducerHandle<Filter>) -> Callback<MouseEvent> {
     // Creamos el callback
     Callback::from(move |e: MouseEvent| {
         let target = e
@@ -38,7 +38,7 @@ pub fn families() -> Html {
             html! {
                 <button
                     class={"family card"}
-                    onclick={set_filter(filter_context.clone())}
+                    onclick={set_family_filter(filter_context.clone())}
                     value={familia.familia().to_string()}>
                         {familia.nombre()}
                 </button>
