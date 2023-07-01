@@ -19,5 +19,6 @@ web-sys = { version = "*", features=[
     "MouseEvent",
     "Event",
     "EventTarget",
-    "HtmlSelectElement"
+    "HtmlSelectElement",
+    "CssStyleDeclaration"
 ]}
