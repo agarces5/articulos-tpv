@@ -12,8 +12,16 @@ impl Cajtpv {
         Self { id, nombre }
     }
 
+    pub fn id(&self) -> String {
+        self.id.to_owned()
+    }
+
     pub fn set_id(&mut self, id: String) {
         self.id = id;
+    }
+
+    pub fn nombre(&self) -> String {
+        self.nombre.to_owned()
     }
 
     pub fn set_nombre(&mut self, nombre: String) {
