@@ -19,5 +19,6 @@ pub fn use_articles() -> Vec<Articulo> {
         filter_context.panel.to_owned(),
     );
     // Filter articles
-    articles.filter(filters)
+    let articles = articles.filter(filters);
+    articles
 }

@@ -27,9 +27,9 @@ pub fn card(props: &CardProps) -> Html {
 
     let onclick = &props.onclick;
     html! {
-        <button key={article.articulo} class={"articulo card"} {onclick}>
+        <button key={article.id} class={"articulo card"} {onclick}>
             <h4>{&props.articulo.nombre}</h4>
-            <p>{&props.articulo.articulo}</p>
+            <p>{&props.articulo.id}</p>
             <ul>
                 {caja_render}
             </ul>

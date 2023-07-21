@@ -1,0 +1,11 @@
+.form-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  place-items: center;
+}
+
+.form-group {
+  display: flex;
+  gap: 1rem;
+}

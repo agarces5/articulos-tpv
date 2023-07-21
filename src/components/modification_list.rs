@@ -22,9 +22,9 @@ pub fn modification_list() -> Html {
                 .unwrap_or_default()
                 .precio;
             html! {
-                <button key={art.articulo} class={"articulo card"} {onclick}>
+                <button key={art.id} class={"articulo card"} {onclick}>
                     <h4>{&art.nombre}</h4>
-                    <p>{art.articulo}</p>
+                    <p>{art.id}</p>
                     <p>{format!("{} €",precio) }</p>
                 </button>
             }

@@ -11,3 +11,4 @@ pub mod modification_list;
 pub mod navbar;
 pub mod panels;
 pub mod precio_item;
+pub mod upd_articulo_form;
